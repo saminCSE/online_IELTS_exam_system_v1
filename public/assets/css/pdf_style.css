@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 210mm;
+    /* A4 width in millimeters */
+    height: 297mm;
+    /* A4 height in millimeters */
+    margin: 0;
+    padding: 0;
+    margin: 50px auto;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    height: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto !important;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 10px;
+}
+
+header .content {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    align-items: center;
+}
+
+header .left {
+    flex-basis: 30%;
+}
+
+header .left .logo {
+    padding-right: 15px;
+}
+
+header .left .logo img {}
+
+header .middle {
+    flex-basis: 70%;
+    /* FONT-WEIGHT: 600; */
+}
+
+header .middle h2 {
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+header .middle i {
+    font-size: 12px;
+}
+
+header .middle h3 {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+
+.client-info {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.client-info-table {
+    margin-bottom: 10px;
+}
+
+.client-info-table tr {}
+
+.client-info-table th {
+    width: 200px;
+}
+
+.client-info .date {
+    float: right;
+    font-size: 13px;
+}
+
+.table1 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table1 table {
+    width: 100%;
+}
+
+.table1 table {
+    text-align: center;
+}
+
+.table1 table tr {
+    font-size: 13px;
+}
+
+.table1 table tr .border-1 {
+    border: 1px solid;
+}
+
+
+.content-container {
+    display: flex;
+}
+
+.content2 {
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 10px;
+    flex-basis: 70%;
+}
+
+.content2 h3 {
+    font-size: 15px;
+}
+
+.content2 .tables {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.content2 .table2 {
+    width: 100%;
+    margin: 10px;
+}
+
+.content2 .table2 table {
+    width: 100%;
+}
+
+.content2 .table2 table tr {}
+
+.content2 .table2 table tr th {}
+
+.content2 .table3 {}
+
+.content2 .table3 table {}
+
+.content2 .table3 table tr {}
+
+.content2 .table3 table tr th {}
+
+.content3 {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content3 h2 {
+    font-size: 15px;
+}
+
+.content3 table {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+}
+
+.content3 table tr {}
+
+.content3 table tr th {
+    border: 1px solid;
+}
+
+.content3 table tr td {
+    border: 1px solid;
+}
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+.footer-header{
+    margin: 10px;
+    font-size: 12px;
+}
+.footer-container{
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+.footer-container .apply{
+    font-size: 13px;
+}
+.footer-container .red{
+    font-size: 12px;
+    color: red;
+}
+.footer-container .portal-link{
+    font-size: 13px;
+    color: blue;
+}
+.footer-container .address{
+    font-size: 13px;
+}

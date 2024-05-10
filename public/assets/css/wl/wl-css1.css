@@ -1,0 +1,140 @@
+#highlight .alert.bc-alert-news {
+    margin: 0;
+    background-color: #414042;
+    font-size: 24px;
+    color: #fff;
+    padding: 19px 17px 19px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#highlight .alert.bc-alert-news p {
+    max-width: 85%;
+    order: 0;
+}
+
+#highlight .alert.bc-alert-news .close {
+    right: 0;
+    top: 0;
+    margin-left: 20px;
+    order: 1;
+}
+
+#highlight .alert.bc-alert-news svg {
+    width: 34px;
+    height: 34px;
+}
+
+@media (min-width:850px) {
+    #highlight .alert.bc-alert-news {
+        font-size: 26px;
+        padding: 30px;
+    }
+    #highlight .alert.bc-alert-news svg {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+.bc-subtheme-ielts .bc-brand-logo {
+    background: url(/profiles/solas2/themes/solas_ui/css/header/take-ielts.svg) 0 0/contain no-repeat;
+}
+
+.takeielts-tags {
+    margin-left: 0;
+}
+
+.takeielts-tags li {
+    display: inline-block;
+    font-size: 0.75em;
+    background-color: #ebeff0;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.takeielts-pill a {
+    text-decoration: none;
+}
+
+.takeielts-organisation dt {
+    padding: 0.4em 0 0 0;
+}
+
+.takeielts-organisation dd {
+    padding: 0;
+}
+
+a,
+.bc-tabs-paging ul li {
+    text-decoration: underline;
+}
+
+.bc-footer li a,
+.bc-list-item-standard a,
+.bc-list-item-visual a,
+.nav li>a,
+.bc-link-panel-text a,
+.btn,
+.btn:hover,
+.btn:focus {
+    text-decoration: none;
+}
+
+.bc-footer li a:hover,
+.bc-footer li a:focus,
+.bc-link-panel-text a .bc-link-panel-text-title,
+.bc-list-item-visual a .bc-list-item-title,
+.bc-list-item-standard a .bc-list-item-title {
+    text-decoration: underline;
+}
+
+.node-type-recognising-organisations .takeielts-organisation .website-links p {
+    margin: 0;
+}
+
+.node-type-recognising-organisations .takeielts-organisation .website-links p:last-child {
+    margin: 0 0 25px;
+}
+
+.node-type-recognising-organisations #bc-country-selector {
+    background: #ccc;
+    padding: 1em;
+}
+
+.node-type-recognising-organisations #bc-country-selector form {
+    padding: 0;
+    margin: 0 !important;
+}
+
+.node-type-recognising-organisations .website-links a {
+    font-weight: bold;
+}
+
+.node-type-recognising-organisations .view-country-sites form.bg-theme {
+    background-color: transparent;
+}
+
+.bc-footer .container::before {
+    content: "British Council logo";
+    font: 0/0 a;
+    color: transparent;
+    display: block;
+    width: 125px;
+    height: 36px;
+    margin: 0 0 30px 0;
+    background: url("https://sui.britishcouncil.org/0.1.11/img/bc-logo-white.svg") 0 0/cover no-repeat;
+}
+
+.bc-subtheme-ielts ul.bc-social-media li {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+.bc-subtheme-ielts ul.bc-social-media li a {
+    font: 0/0 a;
+    color: transparent;
+    width: 0;
+    overflow: hidden;
+}

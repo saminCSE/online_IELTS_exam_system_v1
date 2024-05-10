@@ -1,0 +1,604 @@
+.ctools-locked {
+    color: red;
+    border: 1px solid red;
+    padding: 1em;
+}
+
+.ctools-owns-lock {
+    background: #FFFFDD none repeat scroll 0 0;
+    border: 1px solid #F0C020;
+    padding: 1em;
+}
+
+a.ctools-ajaxing,
+input.ctools-ajaxing,
+button.ctools-ajaxing,
+select.ctools-ajaxing {
+    padding-right: 18px !important;
+    background: url(/profiles/solas2/modules/contrib/ctools/images/status-active.gif) right center no-repeat;
+}
+
+div.ctools-ajaxing {
+    float: left;
+    width: 18px;
+    background: url(/profiles/solas2/modules/contrib/ctools/images/status-active.gif) center center no-repeat;
+}
+
+.page-admin-structure-menu .target-blank span {
+    display: none;
+}
+
+a.target-blank span {
+    display: none;
+    padding: 6px 8px;
+    margin-top: -20px;
+    margin-left: 20px;
+    white-space: nowrap;
+    z-index: 1;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+a.target-blank:hover span {
+    display: inline;
+    position: absolute;
+    color: #fff;
+    background: #333;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/uYKcPVoh6c5R0NpdEY5A-Q.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@keyframes blink {
+    0% {
+        background-color: #f69231;
+        color: #fff;
+    }
+    50% {
+        background-color: #d94f13;
+        color: #fff;
+    }
+    100% {
+        background-color: #f69231;
+        color: #fff;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        background-color: #f69231;
+        color: #fff;
+    }
+    50% {
+        background-color: #d94f13;
+        color: #fff;
+    }
+    100% {
+        background-color: #f69231;
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background-color: #f69231;
+        color: #fff;
+    }
+    50% {
+        background-color: #d94f13;
+        color: #fff;
+    }
+    100% {
+        background-color: #f69231;
+        color: #fff;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        background-color: #f69231;
+        color: #fff;
+    }
+    50% {
+        background-color: #d94f13;
+        color: #fff;
+    }
+    100% {
+        background-color: #f69231;
+        color: #fff;
+    }
+}
+
+html body.adminimal-theme * {
+    -webkit-font-smoothing: auto;
+}
+
+body.admin-menu #admin-menu *::-moz-focus-inner {
+    border: 0;
+}
+
+body.admin-menu {
+    margin-top: 0 !important;
+}
+
+body #admin-menu {
+    border-bottom: 1px solid #000;
+}
+
+body.admin-menu:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+body div#admin-menu {
+    background: none repeat scroll 0 0 #202020;
+    font-family: Open Sans, "Segoe UI", "Helvetica", sans-serif;
+}
+
+body div#admin-menu li.admin-menu-toolbar-home-menu {
+    background: transparent;
+}
+
+body div#admin-menu ul#admin-menu-icon:first-child>li:first-child a span {
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/home.svg) no-repeat scroll 0 0 transparent;
+    display: block;
+    margin: 5px 0 0;
+    padding: 0;
+    width: 15px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+body div#admin-menu a,
+body div#admin-menu span {
+    border: none !important;
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+body div#admin-menu a:hover {
+    background-color: #0074bd;
+    color: #fff;
+}
+
+body #admin-menu .dropdown li li {
+    background-color: #1f1f1f;
+}
+
+body #admin-menu .dropdown li li.expandable ul {
+    margin-top: -28px;
+}
+
+body #admin-menu .dropdown li li>li.admin-menu-toolbar-category {
+    background: #fff !important;
+}
+
+body #admin-menu .dropdown li li li:hover,
+body #admin-menu .dropdown li:hover {
+    background: #0074bd !important;
+}
+
+body #admin-menu .dropdown a {
+    border-right: none;
+}
+
+body #admin-menu .dropdown li.admin-menu-toolbar-category a {
+    line-height: 20px;
+}
+
+body #admin-menu .dropdown li.admin-menu-toolbar-category a:focus {
+    background: #0074BD;
+}
+
+body #admin-menu #admin-menu-wrapper .dropdown li li {
+    opacity: 1;
+}
+
+body #admin-menu .dropdown li li:hover,
+body #admin-menu .dropdown li li.iehover {
+    background-color: #333;
+}
+
+body #admin-menu #admin-menu-wrapper .dropdown li li a {
+    border: none;
+}
+
+body #admin-menu #admin-menu-wrapper .dropdown li li.expandable {
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/square.png) no-repeat scroll 145px 11px #1f1f1f;
+}
+
+body #admin-menu #admin-menu-wrapper .dropdown li li.expandable a {
+    background: transparent;
+    padding-right: 25px;
+}
+
+body #admin-menu #admin-menu-wrapper .dropdown li li.expandable:hover {
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/square.png) no-repeat scroll 145px -83px #0074bd !important;
+}
+
+body div.toolbar-shortcuts {
+    float: left;
+}
+
+body div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu {
+    margin: 0;
+    padding: 0;
+}
+
+body div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu li {
+    float: left;
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+body div.shortcut-toolbar div#toolbar a#edit-shortcuts {
+    float: right;
+    line-height: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+body div.shortcut-toolbar div#toolbar a#edit-shortcuts:hover {
+    text-decoration: none;
+}
+
+body div.shortcut-toolbar div#toolbar a#edit-shortcuts:focus {
+    background: #0074BD;
+}
+
+body #admin-menu .dropdown li ul {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body #admin-menu .dropdown li ul {
+    border-top: 3px solid #0074BD;
+}
+
+body #admin-menu .admin-menu-toolbar-category.expandable .dropdown li ul,
+body #admin-menu .dropdown.admin-menu-search-results li ul {
+    border-top: none;
+}
+
+body #admin-menu .dropdown li.admin-menu-action a {
+    border: none !important;
+}
+
+body #admin-menu .dropdown li.admin-menu-action:first-child a {
+    background: #444;
+    padding: 5px 10px;
+}
+
+body #admin-menu .dropdown li.admin-menu-action:first-child a:hover,
+body #admin-menu .dropdown li.admin-menu-action:first-child a:focus {
+    background: #b73939;
+}
+
+body #admin-menu .dropdown li.admin-menu-action.admin-menu-users {
+    border-left: 1px solid #000;
+}
+
+body #admin-menu .dropdown li.admin-menu-action.admin-menu-users a:hover {
+    background: #0074BD;
+}
+
+body #admin-menu .dropdown li.admin-menu-action.admin-menu-account a {
+    background: #4d8f46 !important;
+    border: medium none;
+    padding: 5px 10px;
+}
+
+body #admin-menu .dropdown li.admin-menu-action.admin-menu-account a:hover {
+    background: #277d1e !important;
+}
+
+body #admin-menu #admin-menu-wrapper div#toolbar div.toolbar-shortcuts ul li a {
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/shortcut.png) no-repeat scroll 7px 7px transparent;
+    border-radius: 0 0 0 0;
+    display: block;
+    margin-right: 0;
+    padding: 5px 10px;
+    text-indent: 16px;
+}
+
+body #admin-menu #admin-menu-wrapper div#toolbar div.toolbar-shortcuts ul li a:hover {
+    background-color: #0074bd;
+    background-position: 7px -78px;
+}
+
+body #admin-menu .admin-menu-search input {
+    background: none no-repeat scroll right center #444;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #999;
+    font-size: 12px;
+    margin: 0 !important;
+    outline: medium none;
+    padding: 5px 22px 3px 8px;
+    width: 110px;
+    height: 20px;
+}
+
+body #admin-menu .admin-menu-search input:focus,
+#admin-menu .admin-menu-search input:hover,
+#admin-menu .admin-menu-search input:active {
+    background: none no-repeat scroll right center #888;
+    color: #eee;
+}
+
+body li.admin-menu-search:hover {
+    background: transparent !important;
+}
+
+body div#admin-menu li.highlight {
+    background-color: #ef6114;
+    animation: blink 1s ease both infinite;
+    -moz-animation: blink 1s ease both infinite;
+    -webkit-animation: blink 1s ease both infinite;
+    -o-animation: blink 1s ease both infinite;
+    color: #fff !important;
+}
+
+body #admin-menu li.highlight>a,
+body #admin-menu li.highlight>li {
+    border-color: #ef6114;
+    color: #fff !important;
+    animation: blink 1s ease both infinite;
+    -moz-animation: blink 1s ease both infinite;
+    -webkit-animation: blink 1s ease both infinite;
+    -o-animation: blink 1s ease both infinite;
+}
+
+body.admin-menu.menu-render-newline div#admin-menu div#admin-menu-wrapper div.shortcut-toolbar {
+    clear: both;
+    border-top: 1px solid #000;
+}
+
+body.admin-menu.menu-render-newline {
+    margin-top: 56px !important;
+}
+
+body.admin-menu.menu-render-newline #overlay-container,
+body.admin-menu.newline .overlay-modal-background,
+body.admin-menu.newline .overlay-element,
+body.admin-menu.newline #overlay {
+    padding-top: 30px !important;
+}
+
+body.admin-menu.menu-render-collapsed div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu {
+    position: absolute;
+}
+
+body.admin-menu.menu-render-collapsed div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu li {
+    float: none;
+    display: none;
+    border: none;
+}
+
+body.admin-menu.menu-render-collapsed div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu li.label {
+    display: block;
+    cursor: default;
+}
+
+body.admin-menu.menu-render-collapsed div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu li.label a:hover {
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/shortcut.png) no-repeat scroll 7px 7px #202020 !important;
+    color: #EEE !important;
+}
+
+body.admin-menu.menu-render-collapsed div.shortcut-toolbar div#toolbar div.toolbar-shortcuts ul.menu:hover li {
+    display: block;
+    background: #202020;
+}
+
+body.admin-menu.menu-render-dropdown .toolbar-shortcuts select#shortcut-menu {
+    -webkit-appearance: none;
+    background: url(/profiles/solas2/modules/custom/solas_admin/solas_admin_menu/images/shortcut.png) no-repeat scroll 7px 7px #222;
+    border: medium none;
+    color: #EEE;
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-size: 12px;
+    padding: 5px 4px 4px 24px;
+}
+
+body.admin-menu.menu-render-dropdown .toolbar-shortcuts select#shortcut-menu option:hover {
+    cursor: pointer;
+}
+
+body.admin-menu.menu-render-dropdown .toolbar-shortcuts select#shortcut-menu option:first-child {
+    display: none;
+}
+
+body #admin-menu .dropdown .admin-menu-tab {
+    background: #444;
+    padding-bottom: 2px;
+}
+
+body #admin-menu #environment-indicator {
+    text-shadow: none;
+}
+
+body #admin-menu #environment-indicator .environment-indicator-name {
+    background-image: none;
+    border-left: 1px solid #323232;
+    border-radius: 0;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px;
+}
+
+body #admin-menu #admin-menu-wrapper div#toolbar div.toolbar-shortcuts ul,
+body #admin-menu #admin-menu-wrapper div#toolbar div.toolbar-shortcuts ul li {
+    margin: 0;
+    padding: 0;
+}
+
+body #admin-menu .admin-menu-search input {
+    background: none no-repeat scroll right center #444;
+    border: medium none;
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    color: #999;
+    font-size: 12px;
+    margin: 0 !important;
+    outline: medium none;
+    padding: 5px 22px 3px 8px;
+    width: 110px;
+    line-height: 20px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 28px;
+    box-sizing: border-box;
+}
+
+#admin-menu-search .form-item.form-type-textfield label.control-label {
+    display: none;
+}
+
+.rrssb-buttons li.rrssb-email a {
+    background-color: #0a88ff;
+}
+
+.rrssb-buttons li.rrssb-email a:hover {
+    background-color: #006ed6;
+}
+
+.rrssb-email .rrssb-icon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23FFF' d='M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z'/%3E%3C/svg%3E");
+}
+
+.rrssb-buttons li.rrssb-facebook a {
+    background-color: #306199;
+}
+
+.rrssb-buttons li.rrssb-facebook a:hover {
+    background-color: #244872;
+}
+
+.rrssb-facebook .rrssb-icon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 29 29'%3E%3Cpath fill='%23FFF' d='M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z'/%3E%3C/svg%3E");
+}
+
+.rrssb-buttons li.rrssb-twitter a {
+    background-color: #26c4f1;
+}
+
+.rrssb-buttons li.rrssb-twitter a:hover {
+    background-color: #0eaad6;
+}
+
+.rrssb-twitter .rrssb-icon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23FFF' d='M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62a15.093 15.093 0 0 1-8.86-2.32c2.702.18 5.375-.648 7.507-2.32a5.417 5.417 0 0 1-4.49-3.64c.802.13 1.62.077 2.4-.154a5.416 5.416 0 0 1-4.412-5.11 5.43 5.43 0 0 0 2.168.387A5.416 5.416 0 0 1 2.89 4.498a15.09 15.09 0 0 0 10.913 5.573 5.185 5.185 0 0 1 3.434-6.48 5.18 5.18 0 0 1 5.546 1.682 9.076 9.076 0 0 0 3.33-1.317 5.038 5.038 0 0 1-2.4 2.942 9.068 9.068 0 0 0 3.02-.85 5.05 5.05 0 0 1-2.48 2.71z'/%3E%3C/svg%3E");
+}
+
+.rrssb-buttons li.rrssb-linkedin a {
+    background-color: #007bb6;
+}
+
+.rrssb-buttons li.rrssb-linkedin a:hover {
+    background-color: #005983;
+}
+
+.rrssb-linkedin .rrssb-icon {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23FFF' d='M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z'/%3E%3C/svg%3E");
+}
+
+.rrssb {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold
+}
+
+.rrssb .rrssb-buttons {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0.15em 0;
+    padding: 0;
+    width: 100%
+}
+
+.rrssb li {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.15em
+}
+
+.rrssb a {
+    background-color: #ccc;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    display: block;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%
+}
+
+.rrssb a:active {
+    box-shadow: inset 1px 3px 15px 0 rgba(22, 0, 0, 0.25)
+}
+
+.rrssb .rrssb-icon {
+    display: block;
+    box-sizing: border-box;
+    left: 0.5em;
+    position: absolute;
+    top: 15%;
+    height: 70%;
+    width: 1.75em
+}
+
+.rrssb .rrssb-text {
+    color: #fff;
+    padding: 0 1em 0 2.75em;
+    line-height: 2.5em
+}
+
+.rrssb .rrssb-prefix {
+    padding-right: 0.6em
+}
+
+.rrssb.no-label a {
+    width: 2.5em;
+    height: 2.5em
+}
+
+.rrssb.no-label .rrssb-icon {
+    position: relative;
+    left: 15%
+}
+
+.rrssb.no-label .rrssb-text {
+    display: none
+}
